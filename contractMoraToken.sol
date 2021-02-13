@@ -668,7 +668,7 @@ abstract contract ERC20Burnable is Context, ERC20 {
     }
 }
 
-// File: contracts/XXToken.sol
+// File: contracts/XXMora.sol
 
 pragma solidity >=0.6.0 <0.8.0;
 
