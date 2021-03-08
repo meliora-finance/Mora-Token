@@ -674,8 +674,7 @@ pragma solidity >=0.6.0 <0.8.0;
 
 contract MoraToken is ERC20Burnable {
     constructor(uint256 _initialSupply, string memory _name, string memory _symbol)  public ERC20 (_name, _symbol) {
-        _mint(msg.sender, _initialSupply);
-        //_mint(msg.sender, _initialSupply * (10 ** uint256(decimals())));
+        _mint(msg.sender, _initialSupply * (10 ** uint256(decimals())));
 
     }
 }
